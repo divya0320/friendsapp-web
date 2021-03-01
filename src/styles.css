@@ -1,1 +1,67 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+html {
+
+    height: 100%;
+  
+  }
+
+  .form-group {
+
+   padding-left: 300px;
+   padding-right:300px;
+
+  }
+
+  .valid{
+    color: red;
+
+  }
+  
+  
+  
+  body {
+  
+    padding-top: 150px;
+  
+    padding-bottom: 150px;
+  
+    text-rendering: optimizeLegibility;
+  
+    position: relative;
+  
+    min-height: 100%;
+  
+    -webkit-font-smoothing: antialiased;
+  
+    -moz-osx-font-smoothing: grayscale;
+  
+    font-family: 'Courier New', sans-serif;
+  
+    font-weight: normal;
+  
+    font-size: 1.5em;
+  
+    background: linear-gradient(150deg,#D5E3F1 15%,#FFFBD9 70%,#FFDFCB 94%);
+  
+  }
+  
+  
+  
+  h1 {
+  
+    font-size: 2.0em;
+  
+  }
+
+  button {
+    background: rgb(194, 241, 62);
+    color: black;
+  }
+  
+  
+  
+  .able-borderedt, .table-bordered td, .table-bordered th {
+  
+    border: 1px solid #2F465D;
+  
+  }
