@@ -1,3 +1,9 @@
+
+## Commands to execte to run the application 
+
+  1. npm install
+  2. npm run start -> this will internally run ng serve with a proxy configuration for connecting to backend server. Application will be up and running on http://localhost:4200/
+
 # FriendsApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
@@ -13,14 +19,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
